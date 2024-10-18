@@ -59,11 +59,11 @@ function PayScalex() {
                                         <div className='bg-[#ECFDF3] w-fit rounded-lg px-4'><span>{item.discount}</span></div>
                                         <div className='text-[#6B7280]'>{item.cutoffdiscount}</div>
                                     </div>
-                                    <div className='text-[#1A56DB] font-bold flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature1}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature2}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature3}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature4}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature5}</span></div>
+                                    <div className='text-[#1A56DB] font-bold flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature1}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature2}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature3}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature4}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature5}</span></div>
                                     <div className='mt-40'>
                                     <div className='border border-[#76A9FA]'></div>
                                     <li className='text-[#6B7280] font-semibold'>{item.footerFeature1}</li>
@@ -91,10 +91,10 @@ function PayScalex() {
                                         <div className='bg-[#ECFDF3] w-fit rounded-lg px-4'><span>{item.discount}</span></div>
                                         <div className='text-[#6B7280]'>{item.cutoffdiscount}</div>
                                     </div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature1}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature2}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature3}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature4}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature1}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature2}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature3}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature4}</span></div>
                                     <div className='mt-40'>
                                     <div className='border border-[#76A9FA]'></div>
                                     <li className='text-[#6B7280] font-semibold'>{item.footerFeature1}</li>
@@ -119,10 +119,10 @@ function PayScalex() {
                                     <div className='text-sm font-semibold py-1 m-1'>{item.title}</div>
                                     <div className='font-bold text-3xl py-1'>{item.Price}</div>
                                     <div className='text-sm text-[#6B7280] py-1'>{item.discount}</div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature1}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature2}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature3}</span></div>
-                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled /><span>{item.feature4}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature1}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature2}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature3}</span></div>
+                                    <div className='text-[#6B7280] flex gap-1 items-center text-sm'><TbCircleCheckFilled color='black' /><span>{item.feature4}</span></div>
                                    <div className='mt-40'>
                                    <div className='border border-[#76A9FA]'></div>
                                     <li className='text-[#6B7280] font-semibold'>{item.footerFeature1}</li>
