@@ -1,12 +1,13 @@
 import './App.css'
-import PayScale from './Components/payScale'
+import PayScalex from './Components/PayScalex'
+
 
 function App() {
  
 
   return (
    <>
-   <PayScale/>
+   <PayScalex/>
    </>
   )
 }

@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import { TbCircleCheckFilled } from "react-icons/tb";
 import { Table1, Table2, Table3, Table4 } from '../Data';
 
-function PayScale() {
+function PayScalex() {
     const tableArray = [Table1, Table2, Table3, Table4];
     const [showtable, setShowTable] = useState(Table3);
-
     return (
         <div>
             <div>
@@ -140,4 +139,4 @@ function PayScale() {
     );
 }
 
-export default PayScale;
+export default PayScalex
