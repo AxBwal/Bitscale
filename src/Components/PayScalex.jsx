@@ -69,7 +69,7 @@ function PayScalex() {
                                     
                                     <div className="flex-grow">
                                         <div className={`text-sm font-semibold py-1 m-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.title}</div>
-                                        <div className={`font-bold text-3xl py-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.Price}</div>
+                                        <div className={`font-bold text-3xl py-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.Price}<span className='text-sm mr-3 text-[#6B7280]'>/month</span></div>
                                         <div className='text-sm py-1 flex gap-2'>
                                             <div className={`bg-[#ECFDF3] w-fit rounded-lg px-4 flex items-center gap-1 ${isActive ? 'text-[#027A48]' : 'text-[#027A48]'}`}><RiDiscountPercentLine /><span>{item.discount}</span></div>
                                             <div className={`font-bold line-through ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.cutoffdiscount}</div>
@@ -114,8 +114,8 @@ function PayScalex() {
                                     key={index}
                                 >
                                     <div className="flex-grow">
-                                        <div className={`text-sm font-semibold py-1 m-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.title}</div>
-                                        <div className={`font-bold text-3xl py-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.Price}</div>
+                                        <div className={`text-sm flex justify-between  font-semibold py-1 m-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.title} <span className='bg-[#CEE0FF] text-[#053D99] rounded-xl px-2'>Popular</span></div>
+                                        <div className={`font-bold text-3xl py-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.Price} <span className='text-sm text-[#6B7280]'>/month</span></div>
                                         <div className='flex gap-2'>
                                             <div className={`bg-[#ECFDF3] text-[#027A48] w-fit rounded-lg px-4 flex text-sm items-center gap-1 ${isActive ? 'text-[#027A48]' : 'text-[#027A48]'}`}><RiDiscountPercentLine /><span>{item.discount}</span></div>
                                             <div className={`font-bold line-through ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.cutoffdiscount}</div>

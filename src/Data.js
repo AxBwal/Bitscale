@@ -15,7 +15,7 @@ export const Table1=[
 export const Table2=[
     {
         title:"Growth",
-        Price:"$229/month",
+        Price:"$229",
         discount:"50% off ",
         cutoffdiscount:"$459",
         feature1:"8,000  Credits",
@@ -33,7 +33,7 @@ export const Table2=[
 export const Table3=[
     {
         title:"Booster",
-        Price:"$449/month",
+        Price:"$449",
         discount:"50% off ",
         cutoffdiscount:"$999",
         feature1:"25,000  Credits",
