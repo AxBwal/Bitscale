@@ -10,9 +10,9 @@ function PayScalex() {
     return (
         <div>
             <div>
-               <div>
-                <ToggleSwitch/>
-               </div>
+                <div>
+                    <ToggleSwitch />
+                </div>
 
                 <div className='grid grid-cols-4 gap-1 m-5'>
                     {/* Table1 */}
@@ -25,27 +25,25 @@ function PayScalex() {
                                     className={`border shadow-lg px-4 flex flex-col rounded-lg h-[500px] w-[300px] ${isActive ? 'bg-gradient-to-b from-[#1E429F] to-[#0B1839] text-white' : 'bg-white text-black'}`}
                                     key={index}
                                 >
-                                    {/* Top content with flex-grow */}
                                     <div className="flex-grow">
                                         <div>
                                             <div className={`text-sm font-semibold py-1 m-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.title}</div>
                                             <div className={`font-bold text-3xl py-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.Price}</div>
                                             <div className={`text-sm py-1 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.discount}</div>
-                                            <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                            <div className={`flex py-2 gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                                 <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature1}</span>
                                             </div>
-                                            <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                            <div className={`flex py-2 gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                                 <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature2}</span>
                                             </div>
-                                            <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                            <div className={`flex py-2 gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                                 <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature3}</span>
                                             </div>
-                                            <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                            <div className={`flex py-2 gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                                 <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature4}</span>
                                             </div>
                                         </div>
                                     </div>
-                                    {/* Footer content */}
                                     <div>
                                         <div className='border border-[#76A9FA]'></div>
                                         <li className={`font-semibold mb-14 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.footerFeature}</li>
@@ -66,7 +64,6 @@ function PayScalex() {
                                     className={`border shadow-lg px-4 flex flex-col rounded-lg h-[500px] w-[300px] ${isActive ? 'bg-gradient-to-b from-[#1E429F] to-[#0B1839] text-white' : 'bg-white text-black'}`}
                                     key={index}
                                 >
-                                    
                                     <div className="flex-grow">
                                         <div className={`text-sm font-semibold py-1 m-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.title}</div>
                                         <div className={`font-bold text-3xl py-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.Price}<span className='text-sm mr-3 text-[#6B7280]'>/month</span></div>
@@ -74,23 +71,23 @@ function PayScalex() {
                                             <div className={`bg-[#ECFDF3] w-fit rounded-lg px-4 flex items-center gap-1 ${isActive ? 'text-[#027A48]' : 'text-[#027A48]'}`}><RiDiscountPercentLine /><span>{item.discount}</span></div>
                                             <div className={`font-bold line-through ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.cutoffdiscount}</div>
                                         </div>
-                                        <div className={`flex gap-1 font-bold items-center text-sm ${isActive ? 'text-white' : 'text-[#1A56DB]'}`}>
+                                       
+                                        <div className={`flex gap-2 font-bold items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#1A56DB]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : '#1A56DB'} /><span>{item.feature1}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature2}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature3}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
-                                            <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature4}</span>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                            <TbCircleCheckFilled size={"20px"} color={isActive ? 'white' : 'black'} /><span>{item.feature4}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature5}</span>
                                         </div>
                                     </div>
-                                    {/* Footer content */}
                                     <div>
                                         <div className='border border-[#76A9FA]'></div>
                                         <li className={`font-semibold ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.footerFeature1}</li>
@@ -120,20 +117,19 @@ function PayScalex() {
                                             <div className={`bg-[#ECFDF3] text-[#027A48] w-fit rounded-lg px-4 flex text-sm items-center gap-1 ${isActive ? 'text-[#027A48]' : 'text-[#027A48]'}`}><RiDiscountPercentLine /><span>{item.discount}</span></div>
                                             <div className={`font-bold line-through ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.cutoffdiscount}</div>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature1}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature2}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature3}</span>
                                         </div>
-                                        <div className={`flex gap-1  items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
-                                            <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature4}</span>
+                                        <div className={`flex gap-2 items-center text-sm py-2 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                            <TbCircleCheckFilled size={"20px"} color={isActive ? 'white' : 'black'} /><span>{item.feature4}</span>
                                         </div>
                                     </div>
-                                    {/* Footer content */}
                                     <div>
                                         <div className='border border-[#76A9FA]'></div>
                                         <li className={`font-semibold ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.footerFeature1}</li>
@@ -156,25 +152,25 @@ function PayScalex() {
                                     className={`border shadow-lg px-4 flex flex-col rounded-lg h-[500px] w-[300px] ${isActive ? 'bg-gradient-to-b from-[#1E429F] to-[#0B1839] text-white' : 'bg-white text-black'}`}
                                     key={index}
                                 >
-                                    {/* Top content with flex-grow */}
+                                    
                                     <div className="flex-grow">
                                         <div className={`text-sm font-semibold py-1 m-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.title}</div>
                                         <div className={`font-bold text-3xl py-1 ${isActive ? 'text-white' : 'text-black'}`}>{item.Price}</div>
                                         <div className={`text-sm py-1 ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.discount}</div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-1 items-center py-2 text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature1}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-1 items-center py-2 text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature2}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-1 items-center py-2 text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature3}</span>
                                         </div>
-                                        <div className={`flex gap-1 items-center text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
+                                        <div className={`flex gap-1 items-center py-2 text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>
                                             <TbCircleCheckFilled color={isActive ? 'white' : 'black'} /><span>{item.feature4}</span>
                                         </div>
                                     </div>
-                                    {/* Footer content */}
+                                   
                                     <div>
                                         <div className='border border-[#76A9FA]'></div>
                                         <li className={`font-semibold text-sm ${isActive ? 'text-white' : 'text-[#6B7280]'}`}>{item.footerFeature1}</li>
