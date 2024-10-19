@@ -14,7 +14,7 @@ function PayScalex() {
                     <ToggleSwitch />
                 </div>
 
-                <div className='grid grid-cols-4 gap-1 m-5'>
+                <div className='grid grid-cols-4 gap-1 m-5 cursor-pointer'>
                     {/* Table1 */}
                     <div>
                         {Table1.map((item, index) => {
